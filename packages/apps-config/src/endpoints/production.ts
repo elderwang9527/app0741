@@ -14,6 +14,13 @@ export function createProduction (t: TFunction): LinkOption[] {
   return [
     // fixed, polkadot
     {
+      dnslink: 'subplay',
+      info: 'subplay',
+      text: t('rpc.subplay.xyz', 'Subplay', { ns: 'apps-config' }),
+      textBy: t('rpc.hosted.by', 'hosted by {{host}}', { ns: 'apps-config', replace: { host: 'Subplay' } }),
+      value: 'wss://rpc.subplay.xyz'
+    },
+    {
       dnslink: 'polkadot',
       info: 'polkadot',
       text: t('rpc.polkadot.parity', 'Polkadot', { ns: 'apps-config' }),
