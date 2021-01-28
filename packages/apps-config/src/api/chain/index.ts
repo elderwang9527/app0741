@@ -3,9 +3,11 @@
 
 import Beresheet from './beresheet';
 import Phala from './phala';
+import Play from './play';
 
 // alphabetical, based on the actual displayed name
 export default {
   Beresheet,
-  'Phala PoC-3': Phala
+  'Phala PoC-3': Phala,
+  Subplay: Play
 };
