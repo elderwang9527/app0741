@@ -16,9 +16,9 @@ export function createProduction (t: TFunction): LinkOption[] {
     {
       dnslink: 'subplay',
       info: 'subplay',
-      text: t('rpc.subplay.xyz', 'Subplay', { ns: 'apps-config' }),
+      text: t('rpc.subplay.network', 'Subplay', { ns: 'apps-config' }),
       textBy: t('rpc.hosted.by', 'hosted by {{host}}', { ns: 'apps-config', replace: { host: 'Subplay' } }),
-      value: 'wss://rpc.subplay.xyz'
+      value: 'wss://rpc.subplay.network'
     },
     {
       dnslink: 'polkadot',
